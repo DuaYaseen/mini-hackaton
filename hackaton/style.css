@@ -1,0 +1,281 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 5;
+    padding: 0;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.para{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+.navbar {
+    background-color: #ffffff; /* Light background */
+    border-bottom: 1px solid #e0e0e0; /* Border for separation */
+    padding: 1em;
+}
+
+.navbar-brand img {
+    max-height: 50px;
+    object-fit: contain;
+}
+
+.navbar .nav-link {
+    color: #0079ff;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.navbar .nav-link:hover {
+    color: #005bb5;
+}
+
+.search {
+    border-radius: 5px;
+}
+
+.btn-outline-info {
+    color: #0079ff;
+    border-color: #0079ff;
+}
+
+.btn-outline-info:hover {
+    background-color: #0079ff;
+    color: #fff;
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+    .navbar .nav-link {
+        text-align: center;
+    }
+}
+
+
+/* General Styles */
+body {
+    font-family: "Josefin Sans", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* header {
+    background-color:aqua;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+} */
+ .trends{
+    margin-left: 40px;
+    color: #31a9ee;
+    display: flex;
+    align-items: center;
+ }
+ .trendis{
+    margin-left: 80px;
+    color: #31a9ee;
+    display: flex;
+    align-items: center;
+ }
+main {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+/* Post Form */
+.post-form, .post-list {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    gap: 5px;
+    display: flex;
+    align-items: end;
+    border-radius: 20px;
+    border-color: aqua;
+    font-style: italic;
+    color: #005bb5;
+}
+
+button:hover {
+    background-color: #dbeafa;
+}
+
+/* Post List */
+#postsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.post {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.post h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #b9d5f5;
+}
+
+.post p {
+    margin: 0.5em 0 0;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0.3em 0.7em;
+    font-size: 0.9em;
+}
+
+.delete-btn:hover {
+    background-color: #31a9ee;
+}
+
+/* news letter */
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #212121;
+}
+
+/* Newsletter Container */
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 2rem auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left Content */
+.newsletter-content {
+    flex: 1;
+    padding: 1rem;
+}
+
+.subtext {
+    color: #0079ff;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.input:focus {
+    border-color: #0079ff;
+    outline: none;
+}
+
+.btn {
+    background-color: #0079ff;
+    color: #fff;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #005bb5;
+}
+
+.note {
+    font-size: 0.8rem;
+    color: #555;
+}
+
+/* Right Section (Circle) */
+.newsletter-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 121, 255, 0.3);
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .newsletter-container {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1rem;
+    }
+
+    .newsletter-image {
+        display: none;
+    }
+}
